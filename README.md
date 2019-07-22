@@ -1,4 +1,6 @@
 # link-onboarding
+https://mason.link
+
 Welcome to the onboarding material for Blockmason Link! We hope Link will be a useful developer tool to help you build your applications. Link is the first managed, decentralized, functions-as-a-service (FaaS) platform, pushing the envelope of interoperability by creating conventional web APIs for developers interacting with networks such as programmable blockchains.
 
 ### Signing Up
@@ -27,7 +29,7 @@ Welcome to the Link Homepage! A few things to note here:
 
 Since smart contracts deployed onto a blockchain are generally immutable (i.e. can NOT be changed), every time you make a change to the smart contract code in the Link IDE, effectively a new smart contract is being deployed which means a new `Client ID` and `Client Secret` will be generated for authentication.
 
-> Try it! Here is a simple smart contract code for assigning ownership of an asset. Delete the `Demo` contract code and copy and paste the following code into the Link IDE and see what API endpoints are generated (note: it may take a few seconds for the change to persist):
+> Try it! Here is a simple smart contract code for assigning ownership of an asset. **Delete** the `Demo` contract code and **copy and paste** the following code into the Link IDE and see what API endpoints are generated (note: it may take a few seconds for the change to persist):
 ```
 pragma solidity ^0.5.8;
 
@@ -50,9 +52,21 @@ Your generated API endpoints should look something like the following. Also note
 
 So using the Link private blockchain, this is **all you need to do** to deploy your contract and generate your APIs. Simply copy/paste your smart contract code and the APIs will appear!
 
-Now, how do you actually use these API endpoints?
+Now, *how do you actually use these API endpoints?*
 
 ### Link SDKs
+https://blockmason.link/link-sdk/
+
+To make it easy to use Link, we have developed several easy-to-use SDKs in a variety of popular programming languages so you can focus on building your apps using your preferred language. 
+
+With all our SDKs, generally all you need is the `Client ID` and `Client Secret` for authentication.
+
+Here is a simple example using the JavaScript SDK (https://github.com/blockmason/link-sdk.js) and our Ownership smart contract code from the previous section. Note this example uses the JavaScript SDK from a Node.js environment which requires the use of `node-fetch`: 
+
+
+
+
+
 
 
 
