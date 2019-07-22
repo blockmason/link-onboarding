@@ -19,7 +19,7 @@ async function setOwner() {
   if (response.errors) {
     console.log(response.errors[0].detail);
   } else {
-    console.log('Set ownership successful');
+    console.log('POST /setOwner called successfully with request data ', reqBody);
   }
 }
 
@@ -30,7 +30,7 @@ async function getOwner() {
   };
 
   const { result } = await project.get('/ownerOf', asset);
-  console.log('result is', result);
+  console.log('GET /getOwner of asset', asset, 'is ', result);
 }
 
 // Set and retrive for demo

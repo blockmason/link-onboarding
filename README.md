@@ -61,11 +61,35 @@ To make it easy to use Link, we have developed several easy-to-use SDKs in a var
 
 With all our SDKs, generally all you need is the `Client ID` and `Client Secret` for authentication.
 
-Here is a simple example using the JavaScript SDK (https://github.com/blockmason/link-sdk.js) and our Ownership smart contract code from the previous section. Note this example uses the JavaScript SDK from a Node.js environment which requires the use of `node-fetch`: 
+The following link is to a simple example using the [JavaScript SDK](https://github.com/blockmason/link-sdk.js "Link JavaScript SDK") and our Ownership smart contract code from the previous section. Note this example uses the JavaScript SDK from a Node.js environment which requires the use of `node-fetch`: 
 
+https://github.com/blockmason/link-onboarding/blob/master/ownership.js
 
+First, `POST /setOwner` is called to set the owner of an asset and then `GET /getOwner` is called to retrive the owner address, with the request parameters and response object based on the Link API documentation. If I run the `ownership.js` script using Node from my Terminal, for example, I get:
 
+![Ownership Script Example](images/ownership_script_example.png)
 
+Note: we do NOT need to use a complex library such as web3.js in our JavaScript file as Link abstracts away the blockchain interactions and complexity 'under-the-hood'. We are simply making an API call as we would with any 3rd party service.
+
+### Using Ethereum or other public blockchains
+
+Currently Link supports [Ethereum](https://www.ethereum.org/) and [GoChain](https://gochain.io/) public blockchains. 
+
+The process for connecting and interacting with an external blockchain using Link is a bit more involved but relatively straightforward using the Link Project Wizard. In general, the process flow looks something like this (the deployment process for the Link private blockchain greyed out):
+
+![Link public blockchain setup flow](images/Link_public_blockchain_flow.png)
+
+1. Create your smart contract in Link
+2. Label your public blockchain
+3. Setup your network connector by identifying the network RPC provider API endpoint. For Ethereum, we recommend using a hosted provider such as Infura. See [here](https://github.com/gochain-io/docs#network-rpc-urls) for GoChain. 
+4. Deploy your smart contract onto the public blockchain
+5. Label your generated APIs
+6. Label your API Consumer (e.g. the name of your app using the APIs)
+7. Obtain your OAuth API authentication (automatically generated)
+
+Let's walk through the process for deploying and setting up our Ownership smart contract APIs on the Ethereum Ropsten Testnet. 
+
+#### Using Ethereum Ropsten with Link
 
 
 
