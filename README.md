@@ -86,3 +86,10 @@ The process for connecting and interacting with an external blockchain using Lin
 5. Label your generated APIs
 6. Label your API Consumer (e.g. the name of your app using the APIs)
 7. Obtain your OAuth API authentication (automatically generated)
+
+#### Deploying on Ethereum
+[Documentation on using Link to deploy to Ethereum public blockchains](https://github.com/blockmason/link-onboarding/blob/master/Ethereum.md)
+
+
+#### Deploying on GoChain
+[Documentation on using Link to deploy to GoChain public blockchains](https://github.com/blockmason/link-onboarding/blob/master/GoChain.md)
