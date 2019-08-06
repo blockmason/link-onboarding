@@ -67,7 +67,7 @@ And we see our contract deployed on the Ropsten Testnet!
 
 Now you can go ahead and use the API endpoints which are linked to the Ownership smart contract deployed on Ethereum Ropsten!
 
-### Test API endpoints
+### Test Ownership API endpoints
 A simple JavaScript file using the Link JavaScript SDK in a Node environment can be found here:
 
 https://github.com/blockmason/link-onboarding/blob/master/ownership-link-sdk-demo.js
@@ -83,5 +83,6 @@ https://github.com/blockmason/link-onboarding/blob/master/ownership-link-sdk-dem
 ### Deploying to Ethereum Mainnet
 
 If you want to deploy on the Ethereum Mainnet, just follow the same steps above with the following differences:
-* > Acquire actual ETH to send to your Link default account wallet
-* > Use the Infura Mainnet URL
+> Acquire actual ETH to send to your Link default account wallet
+
+> Use the Infura Mainnet URL

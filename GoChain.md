@@ -53,7 +53,7 @@ Let's also check that our Ownership contract deployed correctly on the GoChain T
 
 ![Link Contract Deployments List](images/link_contract_deployments_list.png)
 
-In the above example, the contract address on GoChain is `0xa187da3f23129e03904d1ad4a44062970b898e22`.
+In the above example, the contract address on GoChain is `0x5d81167993cb26e25e60be9deb58aab0fe93eccc`.
 
 ![GoChain Explorer](images/gochain_explorer_contract.png)
 
@@ -77,5 +77,6 @@ https://github.com/blockmason/link-onboarding/blob/master/ownership-link-sdk-dem
 ### Deploying to GoChain Mainnet
 
 If you want to deploy on the GoChain Mainnet, just follow the same steps above with the following differences:
-* > Acquire mainnet GO tokens to send to your Link default account wallet
-* > Use the use the appropriate [GoChain Network RPC URL](https://github.com/gochain-io/docs#network-rpc-urls) for Mainnet
+  > Acquire mainnet GO tokens to send to your Link default account wallet
+  
+  > Use the use the appropriate [GoChain Network RPC URL](https://github.com/gochain-io/docs#network-rpc-urls) for Mainnet
