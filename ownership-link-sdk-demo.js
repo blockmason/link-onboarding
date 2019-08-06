@@ -1,6 +1,7 @@
 const fetch = require('node-fetch');
 const { link } = require('@blockmason/link-sdk');
 
+// Authenticate with Link API
 const project = link({
   clientId: 'pW3tAfIXZ8wNC4tER7_88Yoj6RFAPElfGijHrODWkMs',
   clientSecret: 'sn9QnR0KSat/E3jlSeg34M6Y9dLdRmfHpFbH7Sv8S2/xWjyS0qN4kBVNxnuS0Lu'
