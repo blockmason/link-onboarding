@@ -45,9 +45,9 @@ In this onboarding example, we will deploy a smart contract on the GoChain Testn
 
 ![Create new OAuth](images/oauth_link_new.png)
 
-Once you hit *`Finish`*, you should see your Ownership API documentation. Note the `client_id` and `client_secret` under *Authentication* which you will use in your app. 
+Once you hit *`Finish`*, you should end up back at Home page and see your Ownership code in the IDE, the API tab and a gear icon containing the `client_id` and `client_secret` at the bottom of the page which you will use in your app. 
 
-![API Documentation Link](images/api_documentation_link.png)
+![API Documentation Link](images/rsk/link_home_post_setup.png)
 
 Let's also check that our Ownership contract deployed correctly on the GoChain Testnet. Click on the `Ethereum Contract Deployments` menu item to see a list of contract deployments and their addresses. Copy and paste the address of the `Ownership GoChain Testnet Deployment` into the GoChain Testnet explorer https://testnet-explorer.gochain.io to see the details of your contract deployment.
 
