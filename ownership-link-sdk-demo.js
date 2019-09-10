@@ -3,8 +3,8 @@ const { link } = require('@blockmason/link-sdk');
 
 // Authenticate with Link API
 const project = link({
-  clientId: 'pW3tAfIXZ8wNC4tER7_88Yoj6RFAPElfGijHrODWkMs',
-  clientSecret: 'sn9QnR0KSat/E3jlSeg34M6Y9dLdRmfHpFbH7Sv8S2/xWjyS0qN4kBVNxnuS0Lu'
+  clientId: '',
+  clientSecret: ''
 }, {
     fetch
 });
@@ -16,11 +16,12 @@ async function setOwner() {
     "owner": "0xaFf485B0dd5D2c2851FDf374D488379F75403663"
   }
   
-  const response = await project.post('/setOwner', reqBody);
-  if (response.errors) {
-    console.log(response.errors[0].detail);
-  } else {
+  try {
+    await project.post('/setOwner', reqBody);
     console.log('POST /setOwner called successfully with request data ', reqBody);
+  }
+  catch(err) {
+    console.log('Error with POST /setOwner: ',err);
   }
 }
 

@@ -37,7 +37,7 @@ In this onboarding example, we will deploy a smart contract on the GoChain Testn
 
 ![Link API New](images/link_api_new.png)
 
-> 9. Now we label our Ownership API **Consumer**. This would normally be the name of the app or service calling the API. For example, let's call the consumer `Collectible Stamps App Ropsten`. Ensure you are using the correct *API* and *Account*. Press *`Save`* and *`Next`*.
+> 9. Now we label our Ownership API **Consumer**. This would normally be the name of the app or service calling the API. For example, let's call the consumer `Collectible Stamps App`. Ensure you are using the correct *API* and *Account*. Press *`Save`* and *`Next`*.
 
 ![Link Consumer New](images/link_consumer_new.png)
 

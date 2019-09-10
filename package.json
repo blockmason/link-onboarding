@@ -1,0 +1,23 @@
+{
+  "name": "link-onboarding",
+  "version": "1.0.0",
+  "description": "https://mason.link",
+  "main": "ownership-link-sdk-demo.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blockmason/link-onboarding.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/blockmason/link-onboarding/issues"
+  },
+  "homepage": "https://github.com/blockmason/link-onboarding#readme",
+  "dependencies": {
+    "@blockmason/link-sdk": "^0.1.4",
+    "node-fetch": "^2.6.0"
+  }
+}

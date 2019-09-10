@@ -74,6 +74,7 @@ Note: we do NOT need to use a complex library such as web3.js in our JavaScript 
 Currently Link supports the following public blockchains: 
 * [Ethereum](https://www.ethereum.org/)
 * [GoChain](https://gochain.io/) 
+* [RSK](https://www.rsk.co/)
 
 The process for connecting and interacting with an external blockchain using Link is a bit more involved but relatively straightforward using the Link Project Wizard. In general, the process flow looks something like this (the deployment process for the Link private blockchain greyed out):
 
@@ -90,6 +91,8 @@ The process for connecting and interacting with an external blockchain using Lin
 #### Deploying on Ethereum
 [Documentation on using Link to deploy to Ethereum public blockchains](https://github.com/blockmason/link-onboarding/blob/master/Ethereum.md)
 
-
 #### Deploying on GoChain
 [Documentation on using Link to deploy to GoChain public blockchains](https://github.com/blockmason/link-onboarding/blob/master/GoChain.md)
+
+#### Deploying on RSK
+[Documentation on using Link to deploy to RSK public blockchains](https://github.com/blockmason/link-onboarding/blob/master/RSK.md)
