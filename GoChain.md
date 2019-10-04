@@ -2,6 +2,10 @@
 In this onboarding example, we will deploy a smart contract on the GoChain Testnet. 
 
 ### Setup
+> Identify your Link account wallet, which you can find in Link from the Ethereum Account menu as shown:
+
+![Ethereum Account Link](images/ethereum_account_link.png) 
+
 > Ask for some free testnet GO in GoChain's [Testnet Telegram](https://t.me/gochain_testnet) to be sent to your Link account
 
 ### API project setup in Link

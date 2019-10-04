@@ -1,5 +1,5 @@
 // NOTE: This token smart contract template has been simplifed for demonstration purposes and does not meet the ERC-20 token standard!
-// DO NOT use in production! 
+// DO NOT use in production! Use the ERC20Token.sol contract instead. 
 
 pragma solidity ^0.5.8;
 
