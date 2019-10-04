@@ -15,6 +15,8 @@ In this onboarding example, we will deploy a smart contract on the Ethereum Rops
 
 **Note: This Ropsten Faucet tracks the IP of the source making the request. On a common WiFi network, multiple requests from the same external IP will trigger the IP to be grey-listed for 24 hours. If so, connect your laptop to a different WiFi network or temporarily connect to a phone's WiFi hotspot when making the request**
 
+> > Confirm you have received the ETH tokens by searching your Link account wallet address with the Ropsten testnet block explorer: https://ropsten.etherscan.io . 
+
 ### API project setup in Link
 
 > 1. In Link, open up the setting dropdown menu and select *`New Project`* which starts the new project wizard.

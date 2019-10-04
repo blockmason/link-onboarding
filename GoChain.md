@@ -6,7 +6,9 @@ In this onboarding example, we will deploy a smart contract on the GoChain Testn
 
 ![Ethereum Account Link](images/ethereum_account_link.png) 
 
-> Ask for some free testnet GO in GoChain's [Testnet Telegram](https://t.me/gochain_testnet) to be sent to your Link account
+> Ask for some free testnet GO in GoChain's [Testnet Telegram](https://t.me/gochain_testnet) to be sent to your Link account wallet.
+
+> Confirm you have received the testnet GO tokens by searching your Link account wallet address with the GoChain testnet block explorer: https://testnet-explorer.gochain.io/ . 
 
 ### API project setup in Link
 > 1. In Link, open up the setting dropdown menu and select *`New Project`* which starts the new project wizard.
