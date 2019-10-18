@@ -6,7 +6,7 @@ In this onboarding example, we will deploy a smart contract on the GoChain Testn
 
 ![Ethereum Account Link](images/ethereum_account_link.png) 
 
-> Ask for some free testnet GO in GoChain's [Testnet Telegram](https://t.me/gochain_testnet) to be sent to your Link account wallet.
+> Now seed your Link account wallet with test GO from https://faucet.gochain.io (1 GO will be dripped to your wallet), which will be used to pay for transactions on the GoChain Testnet.
 
 > Confirm you have received the testnet GO tokens by searching your Link account wallet address with the GoChain testnet block explorer: https://testnet-explorer.gochain.io/ . 
 
