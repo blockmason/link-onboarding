@@ -75,6 +75,7 @@ Currently Link supports the following public blockchains:
 * [Ethereum](https://www.ethereum.org/)
 * [GoChain](https://gochain.io/) 
 * [RSK](https://www.rsk.co/)
+* [ThunderCore](https://www.thundercore.com/)
 
 The process for connecting and interacting with an external blockchain using Link is a bit more involved but relatively straightforward using the Link Project Wizard. In general, the process flow looks something like this (the deployment process for the Link private blockchain greyed out):
 
@@ -96,3 +97,6 @@ The process for connecting and interacting with an external blockchain using Lin
 
 #### Deploying on RSK
 [Documentation on using Link to deploy to RSK public blockchains](https://github.com/blockmason/link-onboarding/blob/master/RSK.md)
+
+#### Deploying on ThunderCore
+[Documentation on using Link to deploy to ThunderCore public blockchains](https://github.com/blockmason/link-onboarding/blob/master/ThunderCore.md)

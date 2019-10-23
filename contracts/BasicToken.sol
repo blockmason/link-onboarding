@@ -65,7 +65,6 @@ contract BasicToken {
         return true;
     }
 
-    // The sender needs to be a Link wallet address
     function transferFrom(address _from, address _to, uint256 _value) public returns (bool) {
         require(_from != address(0));
         require(_from != address(this));
