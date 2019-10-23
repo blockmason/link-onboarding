@@ -69,22 +69,25 @@ First, `POST /setOwner` is called to set the owner of an asset and then `GET /ge
 
 Note: we do NOT need to use a complex library such as web3.js in our JavaScript file as Link abstracts away the blockchain interactions and complexity 'under-the-hood'. We are simply making an API call as we would with any 3rd party service.
 
-### Using Public blockchains
+### Using Public or Private external blockchains
+Link supports all Ethereum-compatible blockchains which have accessible JSON-RPC Endpoints. 
 
-Currently Link supports the following public blockchains: 
+
+Currently support documentation is provided for the following external  blockchains: 
 * [Ethereum](https://www.ethereum.org/)
 * [GoChain](https://gochain.io/) 
 * [RSK](https://www.rsk.co/)
 * [ThunderCore](https://www.thundercore.com/)
+* [Microsoft Azure Blockchain Service](https://azure.microsoft.com/en-ca/free/blockchain/)
 
-The process for connecting and interacting with an external blockchain using Link is a bit more involved but relatively straightforward using the Link Project Wizard. In general, the process flow looks something like this (the deployment process for the Link private blockchain greyed out):
+The process for connecting and interacting with an external blockchains using Link is a bit more involved but relatively straightforward using the Link Project Wizard. In general, the process flow looks something like this (the deployment process for the Link internal private blockchain is greyed out):
 
-![Link public blockchain setup flow](images/Link_public_blockchain_flow.png)
+![Link external blockchain setup flow](images/Link_public_blockchain_flow.png)
 
 1. Create your smart contract in Link
-2. Label your public blockchain
-3. Setup your network connector by identifying the network's public JSON-RPC API endpoint. 
-4. Deploy your smart contract onto the public blockchain
+2. Label your external blockchain
+3. Setup your network connector by identifying the network's accessible JSON-RPC API endpoint. 
+4. Deploy your smart contract onto the external blockchain
 5. Label your generated APIs
 6. Label your API Consumer (e.g. the name of your app using the APIs)
 7. Obtain your OAuth API authentication (automatically generated)
@@ -100,3 +103,6 @@ The process for connecting and interacting with an external blockchain using Lin
 
 #### Deploying on ThunderCore
 [Documentation on using Link to deploy to ThunderCore public blockchains](https://github.com/blockmason/link-onboarding/blob/master/ThunderCore.md)
+
+#### Deploying on Microsoft Azure Blockchain Service
+[Documentation on using Link to deploy to Azure Ethereum private blockchains](https://github.com/blockmason/link-onboarding/blob/master/AzureBlockchain.md)
