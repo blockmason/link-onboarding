@@ -1,3 +1,6 @@
+## What is GoChain
+![https://raw.githubusercontent.com/blockmason/ecommerce-workshop/master/Tutorial_1/Images/tutorial_1_video.png](https://raw.githubusercontent.com/blockmason/ecommerce-workshop/master/Tutorial_1/Images/tutorial_1_video.png)
+
 ## Using GoChain with Link
 In this onboarding example, we will deploy a smart contract on the GoChain Testnet. 
 
